@@ -18,17 +18,17 @@ function required() {
 	return true;
 }
 
-function isNumber() {
-	const value = document.getElementById('marks').value;
-	const result = typeof value === 'number';
+// function isNumber() {
+// 	const value = document.getElementById('marks').value;
+// 	const result = typeof value === 'number';
 
-	if (!result) {
-		document.getElementById('marksSpan').innerHTML =
-			'*This should be a number';
-		return false;
-	}
-	return true;
-}
+// 	if (!result) {
+// 		document.getElementById('marksSpan').innerHTML =
+// 			'*This should be a number';
+// 		return false;
+// 	}
+// 	return true;
+// }
 
 function isNumber() {
 	var n = document.getElementById('marks').value;
