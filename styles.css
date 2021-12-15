@@ -1,78 +1,78 @@
 html {
-   margin: 0;
-   padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 hr {
-   padding-top: 10px;
-   padding-bottom: 10px;
-   border: 4px dotted gray;
-   border-top: none;
-   border-left: none;
-   border-right: none;
-   width: 10%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 4px dotted gray;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 10%;
 }
 
 body {
-   text-align: center;
-   margin: 0;
-   font-family: sans-serif;
-   font-size: 12px;
-   font-weight: normal;
-   background: white;
-   background-color: aquamarine;
+  text-align: center;
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  background: white;
+  background-color: aquamarine;
 }
 
 form {
-   margin: 0 auto;
-   padding: 30px;
-   width: 400px;
-   height: auto;
-   overflow: hidden;
-   background: white;
-   border-radius: 10px;
+  margin: 0 auto;
+  padding: 30px;
+  width: 400px;
+  height: auto;
+  overflow: hidden;
+  background: white;
+  border-radius: 10px;
 }
 
 form label {
-   font-size: 14px;
-   color: darkgray;
-   cursor: pointer;
+  font-size: 14px;
+  color: darkgray;
+  cursor: pointer;
 }
 
 input {
-   margin: 15px 0;
-   padding: 15px 10px;
-   width: 70%;
-   outline: none;
-   border: 1px solid #bbb;
-   border-radius: 20px;
-   display: inline-block;
-   box-sizing: border-box;
+  margin: 15px 0;
+  padding: 15px 10px;
+  width: 70%;
+  outline: none;
+  border: 1px solid #bbb;
+  border-radius: 20px;
+  display: inline-block;
+  box-sizing: border-box;
 }
 .primaryHeading {
-   color: gray;
+  color: gray;
 }
 
 .secondHeading {
-   color: #777;
+  color: #777;
 }
 
 #male {
-   width: 0;
+  width: 0;
 }
 
 #female {
-   width: 0;
+  width: 0;
 }
 
 .yesno {
-   width: 0;
+  width: 0;
 }
 
 div {
-   color: red;
+  color: red;
 }
 
 input:focus {
-   border-color: cornflowerblue;
+  border-color: cornflowerblue;
 }
