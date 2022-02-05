@@ -1,21 +1,21 @@
 function checkbox() {
-  const ckb = document.getElementById('ckb').checked;
-  if (ckb) {
-    return true;
-  }
-  document.getElementById('ckbSpan').innerHTML =
-    '*Please agree to the terms and conditions';
-  return false;
+   const ckb = document.getElementById('ckb').checked;
+   if (ckb) {
+      return true;
+   }
+   document.getElementById('ckbSpan').innerHTML =
+      '*Please agree to the terms and conditions';
+   return false;
 }
 
 function required() {
-  var empt = document.forms['Form']['Name'].value;
-  if (empt == '') {
-    document.getElementById('nameSpan').innerHTML =
-      '* This is a required field';
-    return false;
-  }
-  return true;
+   var empt = document.forms['Form']['Name'].value;
+   if (empt == '') {
+      document.getElementById('nameSpan').innerHTML =
+         '* This is a required field';
+      return false;
+   }
+   return true;
 }
 
 // function isNumber() {
@@ -31,29 +31,30 @@ function required() {
 // }
 
 function isNumber() {
-  var n = document.getElementById('marks').value;
+   var n = document.getElementById('marks').value;
 
-  // if (isNaN(n)) {
-  //
-  // }
-  if (!n) {
-    document.getElementById('marksSpan').innerHTML = '*This should be a number';
-    return false;
-  } else {
-    return true;
-  }
+   // if (isNaN(n)) {
+   //
+   // }
+   if (!n) {
+      document.getElementById('marksSpan').innerHTML =
+         '*This should be a number';
+      return false;
+   } else {
+      return true;
+   }
 }
 
 // create a function that check if every function return true
 
 const checkAll = () => {
-  const func1 = checkbox();
-  const func2 = required();
-  const func3 = isNumber();
-  if (func1 && func2 && func3) {
-    document.getElementById('body').innerHTML =
-      '<h1>The form has been successfully submitted</h1>';
-  }
+   const func1 = checkbox();
+   const func2 = required();
+   const func3 = isNumber();
+   if (func1 && func2 && func3) {
+      document.getElementById('body').innerHTML =
+         '<h1>The form has been successfully submitted</h1>';
+   }
 };
 
 document.getElementById('btn').addEventListener('click', checkbox);

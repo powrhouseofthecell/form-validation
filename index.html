@@ -1,79 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>University Registration Form</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body id="body">
-    <main class="container">
-      <h1 class="primaryHeading">University Registration Form</h1>
-      <form action="/" name="Form">
-        <legend>
-          <h2 class="secondHeading">Your basic info</h2>
-        </legend>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>University Registration Form</title>
+      <link rel="stylesheet" href="styles.css" />
+   </head>
+   <body id="body">
+      <main class="container">
+         <h1 class="primaryHeading">University Registration Form</h1>
+         <form action="/" name="Form">
+            <legend>
+               <h2 class="secondHeading">Your basic info</h2>
+            </legend>
 
-        <label for="name">Name: </label>
-        <input type="text" placeholder="*Name is required" name="Name" />
-        <div id="nameSpan"></div>
-        <hr />
+            <label for="name">Name: </label>
+            <input type="text" placeholder="*Name is required" name="Name" />
+            <div id="nameSpan"></div>
+            <hr />
 
-        <label for="email">Email: </label>
-        <input type="email" placeholder="Email" name="Email" />
-        <div class="inputSpan emailSpan"></div>
-        <hr />
-        <label>Date of admission: </label>
-        <input type="date" value="date" name="date" />
-        <span></span>
-        <hr />
+            <label for="email">Email: </label>
+            <input type="email" placeholder="Email" name="Email" />
+            <div class="inputSpan emailSpan"></div>
+            <hr />
+            <label>Date of admission: </label>
+            <input type="date" value="date" name="date" />
+            <span></span>
+            <hr />
 
-        <label>Previous year/semester marks: </label>
-        <input
-          id="marks"
-          type="number"
-          placeholder="*Should be numeraic"
-          name="number"
-        />
-        <div id="marksSpan"></div>
-        <hr />
-        <label>How satisfactory is your experience: </label>
-        <br />
-        <input type="range" value="range" name="range" />
-        <hr />
+            <label>Previous year/semester marks: </label>
+            <input
+               id="marks"
+               type="number"
+               placeholder="*Should be numeraic"
+               name="number"
+            />
+            <div id="marksSpan"></div>
+            <hr />
+            <label>How satisfactory is your experience: </label>
+            <br />
+            <input type="range" value="range" name="range" />
+            <hr />
 
-        <label>Tel: </label>
-        <input type="tel" placeholder="tel" name="tel" />
-        <span></span>
-        <hr />
+            <label>Tel: </label>
+            <input type="tel" placeholder="tel" name="tel" />
+            <span></span>
+            <hr />
 
-        <p>Are you currently enrolled in this college/university :</p>
-        <label>
-          Yes
-          <input class="yesno" type="radio" value="Yes" name="button"
-        /></label>
-        <label
-          >No : <input class="yesno" type="radio" value="No" name="button"
-        /></label>
-        <hr />
-        <p>Gender</p>
-        <label for="male">Male</label>
-        <input id="male" type="radio" value="radio" name="radio" />
-        <label for="female">Female</label>
-        <input id="female" type="radio" value="radio" name="radio" />
-        <hr />
+            <p>Are you currently enrolled in this college/university :</p>
+            <label>
+               Yes
+               <input class="yesno" type="radio" value="Yes" name="button"
+            /></label>
+            <label
+               >No : <input class="yesno" type="radio" value="No" name="button"
+            /></label>
+            <hr />
+            <p>Gender</p>
+            <label for="male">Male</label>
+            <input id="male" type="radio" value="radio" name="radio" />
+            <label for="female">Female</label>
+            <input id="female" type="radio" value="radio" name="radio" />
+            <hr />
 
-        <input type="reset" value="reset" name="reset" />
+            <input type="reset" value="reset" name="reset" />
 
-        <p>I agree to the terms and conditions</p>
-        <input type="checkbox" name="" id="ckb" />
-        <div id="ckbSpan"></div>
+            <p>I agree to the terms and conditions</p>
+            <input type="checkbox" name="" id="ckb" />
+            <div id="ckbSpan"></div>
 
-        <hr />
-        <input type="button" value="GO" id="btn" />
-      </form>
-      <p>Fields with an * are required</p>
-    </main>
-    <script src="index.js"></script>
-  </body>
+            <hr />
+            <input type="button" value="GO" id="btn" />
+         </form>
+         <p>Fields with an * are required</p>
+      </main>
+      <script src="index.js"></script>
+   </body>
 </html>
